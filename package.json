@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "test": "nyc ava -vs",
+    "test": "eslint src && nyc ava -vs",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov | codecov",
     "reporter": "nyc --reporter html && open ./.nyc_output/index.html"
   },
   "repository": "git@github.com:willin/coding-core.git",
   "author": "Willin Wang <willin@willin.org>",
   "license": "MIT",
+  "dependencies": {
+    "@dwing/common": "^1.2.1",
+    "@dwing/redis": "^2.0.2",
+    "coding-sdk": "^3.0.0",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "koa-session": "^5.5.0"
+  },
   "devDependencies": {
     "ava": "^0.22.0",
     "browserify": "^14.4.0",
