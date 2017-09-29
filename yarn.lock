@@ -1149,9 +1149,9 @@ codecov@^2.3.0:
     request "2.81.0"
     urlgrey "0.4.4"
 
-coding-sdk@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/coding-sdk/-/coding-sdk-3.0.0.tgz#73dcfab7e01071a206f6cafd54515c6d43afcc2e"
+coding-sdk@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/coding-sdk/-/coding-sdk-3.0.1.tgz#7e7744dcf4751a9c405943d971ec3540cf9f1132"
   dependencies:
     axios "^0.16.2"
 
